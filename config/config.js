@@ -57,7 +57,7 @@ let config = {
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"
+						url: "https://cloud.timeedit.net/cphbusiness_esas_test/web/open/ri6f7X6Q2nZZ5YQv5Q0614Y3yZYQ9503.ics"
 					}
 				]
 			}
@@ -72,9 +72,9 @@ let config = {
 			config: {
 				weatherProvider: "openweathermap",
 				type: "current",
-				location: "New York",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "YOUR_OPENWEATHER_API_KEY"
+				location: "Brøndby",
+				locationID: "2623352", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				apiKey: "73fdc10d51adf5c5ef1ff7857f89dea7"
 			}
 		},
 		{
@@ -84,9 +84,9 @@ let config = {
 			config: {
 				weatherProvider: "openweathermap",
 				type: "forecast",
-				location: "New York",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "YOUR_OPENWEATHER_API_KEY"
+				location: "Brøndby",
+				locationID: "2623352", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				apiKey: "73fdc10d51adf5c5ef1ff7857f89dea7"
 			}
 		},
 		{
@@ -95,8 +95,8 @@ let config = {
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
-						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						title: "Ekstra bladet",
+						url: "https://ekstrabladet.dk/rssfeed/nyheder/"
 					}
 				],
 				showSourceTitle: true,
