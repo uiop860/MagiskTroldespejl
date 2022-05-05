@@ -11,16 +11,16 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap'); */
 
 :root {
-  --color-text: #999;
-  --color-text-dimmed: #666;
+  --color-text: #fff;
+  --color-text-dimmed: #fff;
   --color-text-bright: #fff;
   --color-background: black;
 
   --font-primary: "Roboto Condensed";
   --font-secondary: "Roboto";
   
-  --font-size: 20px;
-  --font-size-small: 0.75rem;
+  --font-size: 4.00rem;
+  --font-size-small: 2.00rem;
 
   --gap-body-top: 60px;
   --gap-body-right: 60px;
